@@ -19,3 +19,15 @@ export default [{
   amount: 4500,
   createdAt: moment(0).add(4, 'days').valueOf()
 }];
+
+const oneExpense = [{
+  id: '1',
+  description: 'Gum',
+  note: '',
+  amount: 195,
+  createdAt: 0
+}];
+
+const noExpenses = [];
+
+export { oneExpense, noExpenses };
